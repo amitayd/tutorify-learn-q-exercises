@@ -29,7 +29,18 @@
   "codeGroups": {
     "exercise-1": {
       "id": "exercise-1",
-      "files": []
+      "files": [
+        {
+          "name": "basicPromise.js",
+          "mode": "javascript",
+          "role": "script"
+        },
+        {
+          "name": "basicPromise.spec.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     },
     "exercise-2": {
       "id": "exercise-2",
