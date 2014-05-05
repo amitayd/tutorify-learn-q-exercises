@@ -44,7 +44,18 @@
     },
     "exercise-2": {
       "id": "exercise-2",
-      "files": []
+      "files": [
+        {
+          "name": "getMultiJSON.spec.js",
+          "mode": "javascript",
+          "role": "script"
+        },
+        {
+          "name": "getMultiJSON.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     },
     "playground": {
       "id": "playground",
