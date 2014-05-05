@@ -1,5 +1,5 @@
-describe("playground", function() {
-    it('should have window defined', function() {
-       expect(window).toBeDefined();
+describe("helloWorld()", function() {
+    it('should return "Hello, World!"', function() {
+       expect(helloWorld()).toEqual('Hello, World!');
     });
 });
