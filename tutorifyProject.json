@@ -20,7 +20,7 @@
     ],
     "resourceCss": [
       {
-        "src": "result.css"
+        "src": "lib/jasmine-2.0.0/jasmine.css"
       }
     ],
     "liveUpdate": true,
