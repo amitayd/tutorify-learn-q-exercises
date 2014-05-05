@@ -5,7 +5,7 @@ describe ('createBasicPromise()', function() {
         .then(function(result) {
             expect(typeof(result)).toEqual('object');
             done();
-        })
+        });
         
     });
     
@@ -15,6 +15,6 @@ describe ('createBasicPromise()', function() {
         .fail(function(result) {
             expect(Error.prototype.isPrototypeOf(result)).toEqual(true);
             done();
-        })        
+        });       
     });
-})
+});
