@@ -1,0 +1,54 @@
+{
+  "settings": {
+    "htmlTemplate": "\n<html>\n  <head>\n    {{#settings.resourceCss}}\n      <link rel=\"stylesheet\" type=\"text/css\" href=\"{{src}}\">\n    {{/settings.resourceCss}}\n    {{#settings.inlineCss}}\n      <style>\n      {{content}}\n      </style>\n    {{/settings.inlineCss}}\n    {{#settings.resourceScripts}}\n      <script src=\"{{src}}\"></script>\n    {{/settings.resourceScripts}}\n    <script>\n    //function sandboxEntry() {\n    {{#inlineScripts}}\n      \n      {{{content}}}\n      \n    {{/inlineScripts}}\n    //}\n    </script>\n  <title>Snipper result</title></head>\n  <body>\n      {{{mainHtml.content}}}\n      <div id=\"log\"></div>\n  </body>\n  </html>\n",
+    "resourceScripts": [
+      {
+        "src": "lib/q.js"
+      },
+      {
+        "src": "lib/utils.js"
+      },
+      {
+        "src": "lib/jasmine-2.0.0/jasmine.js"
+      },
+      {
+        "src": "lib/jasmine-2.0.0/jasmine-html.js"
+      },
+      {
+        "src": "lib/jasmine-2.0.0/boot.js"
+      }
+    ],
+    "resourceCss": [
+      {
+        "src": "result.css"
+      }
+    ],
+    "liveUpdate": true,
+    "fontSize": 12
+  },
+  "codeGroups": {
+    "exercise-1": {
+      "id": "exercise-1",
+      "files": []
+    },
+    "exercise-2": {
+      "id": "exercise-2",
+      "files": []
+    },
+    "playground": {
+      "id": "playground",
+      "files": [
+        {
+          "name": "playground.js",
+          "mode": "javascript",
+          "role": "script"
+        },
+        {
+          "name": "playground.spec.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
+    }
+  }
+}
