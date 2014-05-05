@@ -1,3 +1,3 @@
 function createBasicPromise(url) {
-    return getJsonPromise(url);
+    return getJSONPromise(url);
 }
