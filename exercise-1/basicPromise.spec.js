@@ -10,7 +10,7 @@ describe ('createBasicPromise()', function() {
     });
     
     it('should fail with Error for invalid url', function(done) {
-        var invalidUrl = 'resources/chairs.json';
+        var invalidUrl = 'resources/pumpkins.json';
         createBasicPromise(invalidUrl)
         .fail(function(result) {
             expect(Error.prototype.isPrototypeOf(result)).toEqual(true);
