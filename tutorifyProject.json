@@ -74,7 +74,13 @@
     },
     "test/playground": {
       "id": "test/playground",
-      "files": []
+      "files": [
+        {
+          "name": "test.js",
+          "mode": "javascript",
+          "role": "script"
+        }
+      ]
     }
   }
 }
