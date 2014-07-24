@@ -71,6 +71,10 @@
           "role": "script"
         }
       ]
+    },
+    "test/playground": {
+      "id": "test/playground",
+      "files": []
     }
   }
 }
